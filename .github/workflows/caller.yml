@@ -5,6 +5,6 @@ on:
 
 jobs:
   reuse-workflow:
-    uses: BLearningGHActions/microservices-template/.github/workflows/called.yml@main
+    uses: BLearningGHActions/microservice-template/.github/workflows/called.yml@main
     with:
       actor: ${{ github.actor }}
